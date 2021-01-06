@@ -58,7 +58,7 @@ public class jiraApi2 {
 				header("Content-Type","application/json").
 				header("Cookie","JSESSIONID="+ReusableMethods.getSessionKey()).
 				body("{\r\n"
-						+ "    \"body\": \"Can't believe!-55\",\r\n"
+						+ "    \"body\": \"Can't believe!-12\",\r\n"
 						+ "    \"visibility\": {\r\n"
 						+ "        \"type\": \"role\",\r\n"
 						+ "        \"value\": \"Administrators\"\r\n"

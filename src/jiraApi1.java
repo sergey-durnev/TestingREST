@@ -43,7 +43,7 @@ public class jiraApi1 {
 				+ "        \"project\": {\r\n"
 				+ "            \"id\": \"10001\"\r\n"
 				+ "        },\r\n"
-				+ "        \"summary\": \"The Bug 3\",\r\n"
+				+ "        \"summary\": \"The Bug 3-5\",\r\n"
 				+ "        \"issuetype\": {\r\n"
 				+ "            \"id\": \"10004\"\r\n"
 				+ "        }\r\n"
