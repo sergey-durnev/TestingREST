@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindPlaceFromTextResponse>
+    <candidates>
+        <name>Томская Областная Государственная Филармония</name>
+        <formatted_address>пр. Ленина, 75, Томск, Томская обл., Россия, 634050</formatted_address>
+        <geometry>
+            <location>
+                <lat>56.4763760</lat>
+                <lng>84.9502900</lng>
+            </location>
+            <viewport>
+                <southwest>
+                    <lat>56.4750242</lat>
+                    <lng>84.9488418</lng>
+                </southwest>
+                <northeast>
+                    <lat>56.4777238</lat>
+                    <lng>84.9515415</lng>
+                </northeast>
+            </viewport>
+        </geometry>
+        <rating>4.7</rating>
+        <photo>
+            <photo_reference>ATtYBwIyuxzAflLSmQuz_nj0PTKyjmm6KIzcxhFIDb-_M3TYdIS_Q97nURChWz2-r-xwtQvH4a2HMPIaxG5p9lc4gLV8-1gpUHlrBviyfVVttUGXvDYSjdFzLbJ5PA1rwbQ-UN--wbzb4BAmCd7Lyy-B62yzBE5VRfPKHmvmicIb4b5YG-8q</photo_reference>
+            <width>900</width>
+            <height>600</height>
+            <html_attribution>&lt;a href=&quot;https://maps.google.com/maps/contrib/107013477444599618537&quot;&gt;Назар Котов&lt;/a&gt;</html_attribution>
+        </photo>
+    </candidates>
+    <candidates>
+        <name>Томский Академический Симфонический Оркестр</name>
+        <formatted_address>пр. Ленина, 75, Томск, Томская обл., Россия, 634050</formatted_address>
+        <geometry>
+            <location>
+                <lat>56.4763780</lat>
+                <lng>84.9505741</lng>
+            </location>
+            <viewport>
+                <southwest>
+                    <lat>56.4750233</lat>
+                    <lng>84.9489840</lng>
+                </southwest>
+                <northeast>
+                    <lat>56.4777230</lat>
+                    <lng>84.9516837</lng>
+                </northeast>
+            </viewport>
+        </geometry>
+        <rating>5.0</rating>
+        <opening_hours>
+            <open_now>true</open_now>
+        </opening_hours>
+        <photo>
+            <photo_reference>ATtYBwJtthcQQ7o6of0dTx_lU41vnEdTaDhrnScPvq8hmzNJVyYQOrgbA2zq8ve8RZ1e2sqYbtNy8zl_GUpyVF5-WKUdyQr6n4kkY1lJl4fXubPyo6KfrguOWp9NMW2oZ8KhNls__7ktWhRiowT4gBOS772k4TyoaPJxi1w7vY-SRp5z4ksJ</photo_reference>
+            <width>3264</width>
+            <height>1836</height>
+            <html_attribution>&lt;a href=&quot;https://maps.google.com/maps/contrib/105995216576910597847&quot;&gt;John Silnov&lt;/a&gt;</html_attribution>
+        </photo>
+    </candidates>
+    <status>OK</status>
+</FindPlaceFromTextResponse>
