@@ -24,7 +24,7 @@ public class jiraApi2 {
 	@BeforeTest
 	public void getData() throws IOException {
 		
-		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\testingAutomation\\src\\files\\env.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\TestingREST\\src\\files\\env.properties");
 		prop.load(fis);
 	}
 	
@@ -70,13 +70,9 @@ public class jiraApi2 {
 				extract().response();
 				
 				js=ReusableMethods.rawToJson(res);
-				String bodyText=js.get("body");
-				System.out.println(bodyText);
+				//String bodyText=js.get("body");
+				//System.out.println(bodyText);
 				
-				//1System.out.println(bodyText);
-				//2System.out.println(bodyText);
-	
-		
 	}
 
 }

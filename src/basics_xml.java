@@ -28,7 +28,7 @@ public class basics_xml {
 	@BeforeTest
 	public void getData() throws IOException {
 		
-		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\testingAutomation\\src\\files\\env.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\TestingREST\\src\\files\\env.properties");
 		prop.load(fis);
 	}
 	
@@ -39,7 +39,7 @@ public class basics_xml {
 		
 		//BaseURL or Host
 				RestAssured.baseURI=prop.getProperty("HOST");
-				String postData=ReusableMethods.GenerateStringFromResource("C:\\Users\\123\\eclipse-workspace\\TestingAutomation\\src\\post.xml");
+				String postData=ReusableMethods.GenerateStringFromResource("C:\\Users\\123\\eclipse-workspace\\TestingREST\\src\\post.xml");
 				
 				Response res=given().
 				       param("location","56.4977,84.9744").
