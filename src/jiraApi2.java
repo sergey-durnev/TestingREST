@@ -78,6 +78,11 @@ public class jiraApi2 {
 				
 				//3System.out.println(bodyText);
 				//4System.out.println(bodyText);
+				
+				//5System.out.println(bodyText);
+				
+				
+				System.out.println(bodyText);
 	
 		
 	}
