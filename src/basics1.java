@@ -16,7 +16,9 @@ import org.testng.annotations.Test;
 public class basics1 {
 	
 	Properties prop= new Properties();
+	
 	@BeforeTest
+	
 	public void getData() throws IOException {
 		
 		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\testingAutomation\\src\\files\\env.properties");
