@@ -73,17 +73,6 @@ public class jiraApi2 {
 				String bodyText=js.get("body");
 				System.out.println(bodyText);
 				
-				//1System.out.println(bodyText);
-				//2System.out.println(bodyText);
-				
-				//3System.out.println(bodyText);
-				//4System.out.println(bodyText);
-				
-				//55System.out.println(bodyText);
-				//56
-				// fgr
-				
-				
 				System.out.println(bodyText);
 	
 		
