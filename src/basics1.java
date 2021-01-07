@@ -21,7 +21,7 @@ public class basics1 {
 	
 	public void getData() throws IOException {
 		
-		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\testingAutomation\\src\\files\\env.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\123\\eclipse-workspace\\TestingREST\\src\\files\\env.properties");
 		prop.load(fis);
 	}
 	
