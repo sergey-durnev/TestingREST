@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-07T12:49:11 GMT+07:00" name="Default suite" finished-at="2021-01-07T12:49:20 GMT+07:00" duration-ms="8487">
+  <suite started-at="2021-01-07T18:32:00 GMT+07:00" name="Default suite" finished-at="2021-01-07T18:32:00 GMT+07:00" duration-ms="142">
     <groups>
     </groups>
-    <test started-at="2021-01-07T12:49:11 GMT+07:00" name="Default test" finished-at="2021-01-07T12:49:20 GMT+07:00" duration-ms="8487">
-      <class name="basics1">
-        <test-method is-config="true" signature="getData()[pri:0, instance:basics1@70e8f8e]" started-at="2021-01-07T12:49:11 GMT+07:00" name="getData" finished-at="2021-01-07T12:49:11 GMT+07:00" duration-ms="36" status="PASS">
+    <test started-at="2021-01-07T18:32:00 GMT+07:00" name="Default test" finished-at="2021-01-07T18:32:00 GMT+07:00" duration-ms="142">
+      <class name="jiraApi1">
+        <test-method is-config="true" signature="getData()[pri:0, instance:jiraApi1@70e8f8e]" started-at="2021-01-07T18:32:00 GMT+07:00" name="getData" finished-at="2021-01-07T18:32:00 GMT+07:00" duration-ms="13" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\123\eclipse-workspace\testingAutomation\src\files\env.properties (Системе не удается найти указанный путь)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\123\eclipse-workspace\testingAutomation\src\files\env.properties (Системе не удается найти указанный путь)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+at jiraApi1.getData(jiraApi1.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method signature="Test()[pri:0, instance:basics1@70e8f8e]" started-at="2021-01-07T12:49:11 GMT+07:00" name="Test" finished-at="2021-01-07T12:49:20 GMT+07:00" duration-ms="8382" status="PASS">
+        <test-method signature="JiraAPI()[pri:0, instance:jiraApi1@70e8f8e]" started-at="2021-01-07T18:32:00 GMT+07:00" name="JiraAPI" finished-at="2021-01-07T18:32:00 GMT+07:00" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\123\eclipse-workspace\testingAutomation\src\files\env.properties (Системе не удается найти указанный путь)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\123\eclipse-workspace\testingAutomation\src\files\env.properties (Системе не удается найти указанный путь)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+at jiraApi1.getData(jiraApi1.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- basics1 -->
+        </test-method> <!-- JiraAPI -->
+      </class> <!-- jiraApi1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
