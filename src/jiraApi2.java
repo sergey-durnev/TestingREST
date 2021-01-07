@@ -72,6 +72,9 @@ public class jiraApi2 {
 				js=ReusableMethods.rawToJson(res);
 				String bodyText=js.get("body");
 				System.out.println(bodyText);
+				
+				//1System.out.println(bodyText);
+				//2System.out.println(bodyText);
 	
 		
 	}
