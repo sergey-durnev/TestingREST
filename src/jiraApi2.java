@@ -70,8 +70,8 @@ public class jiraApi2 {
 				extract().response();
 				
 				js=ReusableMethods.rawToJson(res);
-				String bodyText=js.get("body");
-				System.out.println(bodyText);
+				//String bodyText=js.get("body");
+				//System.out.println(bodyText);
 				
 	}
 
